@@ -1,6 +1,7 @@
 Project I made to practice the Godot Engine
 To play the game, download the `AsteroidsGamev1.0.0.zip` file below, extract and click on the `Asteroids.exe` file.
-[AsteroidsGamev1.0.0.zip](https://github.com/Soulskiez/AsteroidsGodotGame/files/10419384/AsteroidsGamev1.0.0.zip)
+[AstroidsGamev1.0.0.zip](https://github.com/Soulskiez/AsteroidsGodotGame/files/10419397/AstroidsGamev1.0.0.zip)
+
 
 
 
