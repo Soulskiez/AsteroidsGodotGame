@@ -1,6 +1,7 @@
 Project I made to practice the Godot Engine
+To play the game, download the `.zip` file below, extract and click on the `Asteroids.exe` file.
+[AsteroidGame.zip](https://github.com/Soulskiez/AsteroidsGodotGame/files/10419357/AsteroidGame.zip)
 
-To play the game, download the `AsteroidsGame` folder, containing the .exe and .pck file and click on the `Asteroids.exe` file.
 
 
 Current High Score set by user `jorbic 180`
