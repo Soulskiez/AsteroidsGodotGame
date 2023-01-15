@@ -4,5 +4,5 @@ To play the game, download the `AsteroidsGamev1.0.0.zip` file below, extract and
 
 
 
-Current High Score set by user `jorbic 180`
-![jordan180asteroids](https://user-images.githubusercontent.com/6890064/212519939-2a9bf26b-fd31-4825-9b92-c2ee8e551241.PNG)
+Current High Score set by user `jorbic 181`
+![181 jorbic](https://user-images.githubusercontent.com/6890064/212521457-8514116a-a617-460d-bbcf-078bc634a31b.PNG)
