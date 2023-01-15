@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/missle.mp3-1b91e1fb54f5d3586d7a697cd142bb51.mp3str"
+
+[deps]
+
+source_file="res://art/missle.mp3"
+dest_files=[ "res://.import/missle.mp3-1b91e1fb54f5d3586d7a697cd142bb51.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

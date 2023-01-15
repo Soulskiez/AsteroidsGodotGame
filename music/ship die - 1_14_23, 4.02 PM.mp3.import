@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ship die - 1_14_23, 4.02 PM.mp3-280f3e48b362552c6ff1517386eb5fe2.mp3str"
+
+[deps]
+
+source_file="res://music/ship die - 1_14_23, 4.02 PM.mp3"
+dest_files=[ "res://.import/ship die - 1_14_23, 4.02 PM.mp3-280f3e48b362552c6ff1517386eb5fe2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

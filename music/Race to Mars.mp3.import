@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Race to Mars.mp3-610d73d33d89b65c3d92e51c5065c28f.mp3str"
+
+[deps]
+
+source_file="res://music/Race to Mars.mp3"
+dest_files=[ "res://.import/Race to Mars.mp3-610d73d33d89b65c3d92e51c5065c28f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

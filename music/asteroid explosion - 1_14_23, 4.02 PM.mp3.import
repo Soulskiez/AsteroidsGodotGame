@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/asteroid explosion - 1_14_23, 4.02 PM.mp3-260994775304cc25500e2c17fed8bf5c.mp3str"
+
+[deps]
+
+source_file="res://music/asteroid explosion - 1_14_23, 4.02 PM.mp3"
+dest_files=[ "res://.import/asteroid explosion - 1_14_23, 4.02 PM.mp3-260994775304cc25500e2c17fed8bf5c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

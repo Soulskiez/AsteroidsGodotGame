@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gem collected - 1_14_23, 4.01 PM.mp3-ed008e7fc74e85066964d08aaec14acc.mp3str"
+
+[deps]
+
+source_file="res://music/gem collected - 1_14_23, 4.01 PM.mp3"
+dest_files=[ "res://.import/gem collected - 1_14_23, 4.01 PM.mp3-ed008e7fc74e85066964d08aaec14acc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
