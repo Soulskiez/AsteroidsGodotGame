@@ -69,12 +69,13 @@ one_shot = true
 [node name="Score" type="Label" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = 400.0
+margin_left = 152.0
 margin_top = 24.0
-margin_right = 440.0
+margin_right = 488.0
 margin_bottom = 90.0
 custom_fonts/font = SubResource( 2 )
 text = "0"
+align = 2
 
 [node name="Version Number" type="Label" parent="."]
 margin_top = 584.0

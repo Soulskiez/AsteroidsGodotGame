@@ -17,4 +17,3 @@ shape = SubResource( 1 )
 texture = ExtResource( 1 )
 
 [connection signal="area_entered" from="." to="." method="_on_Collectable_area_entered"]
-[connection signal="body_entered" from="." to="." method="_on_Collectable_body_entered"]

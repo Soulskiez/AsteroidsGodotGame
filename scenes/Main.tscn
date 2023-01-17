@@ -62,7 +62,6 @@ stream = ExtResource( 10 )
 
 [connection signal="ship_hit" from="PlayerShip" to="." method="game_over"]
 [connection signal="torpedo_fired" from="PlayerShip" to="." method="fire_torpedo"]
-[connection signal="tree_entered" from="AsteroidPath/AsteroidSpawnLocation" to="." method="_on_AsteroidSpawnLocation_tree_entered"]
 [connection signal="timeout" from="AsteroidTimer" to="." method="_on_AsteroidTimer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_StartTimer_timeout"]
 [connection signal="game_ready" from="HUD" to="." method="toggle_game_ready"]

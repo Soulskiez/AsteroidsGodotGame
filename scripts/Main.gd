@@ -5,8 +5,8 @@ export(PackedScene) var asteroid_scene
 export(PackedScene) var player_ship_scene
 export(PackedScene) var collectable_scene
 var torpedo_speed = 400
-var score
 var is_game_over = true
+var score
 var game_ready = true
 
 func _ready():
@@ -30,6 +30,7 @@ func new_game():
 	$HUD.show_message("Get Ready")
 	score = 0
 	$HUD.update_score(score)
+	get_tree().call_group("collectables", "queue_free")
 	get_tree().call_group("asteroids", "queue_free")
 
 func increment_score():
@@ -70,7 +71,7 @@ func spawn_collectable():
 	var rndX = rand_range(0, screenSize.x)
 	var rndY = rand_range(0, screenSize.y)
 	collectable.position = Vector2(rndX, rndY)
-	add_child(collectable)
+	call_deferred("add_child", collectable)
 
 func _on_AsteroidTimer_timeout():
 	var asteroid = asteroid_scene.instance()
