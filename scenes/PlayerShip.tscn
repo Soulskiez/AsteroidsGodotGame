@@ -48,5 +48,6 @@ position = Vector2( 0, -129 )
 
 [node name="ShipDestroyed" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 6 )
+volume_db = -20.0
 
 [connection signal="body_entered" from="." to="." method="_on_PlayerShip_body_entered"]
