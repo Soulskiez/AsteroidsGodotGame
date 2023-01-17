@@ -7,15 +7,20 @@ export(PackedScene) var collectable_scene
 var torpedo_speed = 400
 var score
 var is_game_over = true
+var game_ready = true
 
 func _ready():
 	randomize()
 
 func _unhandled_input(event):
-	if(event is InputEventJoypadButton && event.button_index == 11):
+	if((event is InputEventJoypadButton && event.button_index == 11 || event is InputEventKey && event.scancode == KEY_SPACE) && game_ready):
 		$HUD._on_StartButton_pressed()
 
+func toggle_game_ready():
+	game_ready = !game_ready
+
 func new_game():
+	toggle_game_ready()
 	$Music.play()
 	is_game_over = false
 	$PlayerShip.start($StartPosition.position)

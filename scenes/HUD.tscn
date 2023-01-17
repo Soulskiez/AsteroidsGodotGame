@@ -80,22 +80,21 @@ text = "0"
 margin_top = 584.0
 margin_right = 40.0
 margin_bottom = 598.0
-text = "v1.1.2"
+text = "v1.1.1"
 
 [node name="InstructionsController" type="Label" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -24.0
+margin_left = -16.0
 margin_top = -496.0
-margin_right = 496.0
+margin_right = 504.0
 margin_bottom = -301.0
 custom_fonts/font = SubResource( 4 )
-text = "Right Stick or L2 / L Trigger 
-and R2 / R Trigger to control rotation.
+text = "Right stick to control rotation
 Left Stick to control movement
-R1 / R bumper or X / A to fire
+User Bumper and Trigger buttons to fire.
 
 "
 align = 1
@@ -110,8 +109,9 @@ margin_top = -200.0
 margin_right = 250.0
 margin_bottom = -40.0
 custom_fonts/font = SubResource( 4 )
-text = "Click the Start Game button 
-or hit start on your controller to begin
+text = "To get begin hit Start Game
+or
+Hit Space or Start on Controller
 
 "
 align = 1

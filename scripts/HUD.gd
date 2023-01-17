@@ -1,6 +1,7 @@
 extends CanvasLayer
 
 signal start_game
+signal game_ready
 
 func _ready():
 	$Message.text = "Destroy and Dodge the Asteroids!"
@@ -16,7 +17,6 @@ func show_message(text):
 func show_game_over():
 	show_message("Game Over")
 	yield($MessageTimer, "timeout")
-	
 	$Message.text = "Destroy and Dodge the Asteroids!"
 	$Message.show()
 	$Instructions.show()
@@ -24,6 +24,7 @@ func show_game_over():
 	$InstructionsStart.show()
 	yield(get_tree().create_timer(1), "timeout")
 	$StartButton.show()
+	emit_signal("game_ready")
 
 func _on_MessageTimer_timeout():
 	$Message.hide()
