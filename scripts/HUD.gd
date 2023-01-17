@@ -20,6 +20,8 @@ func show_game_over():
 	$Message.text = "Destroy and Dodge the Asteroids!"
 	$Message.show()
 	$Instructions.show()
+	$InstructionsController.show()
+	$InstructionsStart.show()
 	yield(get_tree().create_timer(1), "timeout")
 	$StartButton.show()
 
@@ -29,4 +31,6 @@ func _on_MessageTimer_timeout():
 func _on_StartButton_pressed():
 	$StartButton.hide()
 	$Instructions.hide()
+	$InstructionsStart.hide()
+	$InstructionsController.hide()
 	emit_signal("start_game")
