@@ -78,7 +78,7 @@ text = "0"
 margin_top = 584.0
 margin_right = 40.0
 margin_bottom = 598.0
-text = "v1.0.0"
+text = "v1.1.0"
 
 [connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="timeout" from="MessageTimer" to="." method="_on_MessageTimer_timeout"]
