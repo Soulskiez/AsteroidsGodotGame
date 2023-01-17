@@ -11,14 +11,20 @@ var is_game_over = true
 func _ready():
 	randomize()
 
+func _unhandled_input(event):
+	if(event is InputEventJoypadButton && event.button_index == 11):
+		$HUD._on_StartButton_pressed()
+
 func new_game():
 	$Music.play()
 	is_game_over = false
 	$PlayerShip.start($StartPosition.position)
 	$StartTimer.start()
 	$PlayerShip.velocity = Vector2.ZERO
+	$PlayerShip.rotation = 0
 	$HUD.show_message("Get Ready")
 	score = 0
+	$HUD.update_score(score)
 	get_tree().call_group("asteroids", "queue_free")
 
 func increment_score():
